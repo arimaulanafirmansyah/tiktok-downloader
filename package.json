@@ -1,0 +1,16 @@
+{
+  "name": "tiktok-scraper",
+  "version": "1.0.0",
+  "description": "TIKTOK SCRAPER",
+  "main": "tiktok.js",
+  "scripts": {
+    "test": "node tiktok.js"
+  },
+  "author": "AMFCODE",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "puppeteer": "^8.0.0"
+  }
+}
