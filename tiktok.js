@@ -1,4 +1,3 @@
-const express = require("express");
 const cors = require("cors")
 const puppeteer = require("puppeteer")
 
@@ -19,12 +18,6 @@ async function getVidio(URL) {
     });
     return { poster, mp4direct }
 }
-const app = express();
-
-app.use(cors())
-app.listen(4000, () => {
-    console.log("Server Sedang Berjalan Di Port 4000");
-});
 
 app.get('/tiktok', async (req, res) =>{
     var URL = req.query.URL;
